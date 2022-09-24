@@ -1,0 +1,15 @@
+Script started on Wed Dec 16 23:13:16 2020
+[1m[7m%[27m[1m[0m                                                                                ]2;mittyu@Mittyus-MacBook-Pro: ~/Desktop/BD3/OS/myProject/107034024-ppc4]1;..07034024-ppc4[0m[27m[24m[J[01;32m➜  [36m107034024-ppc4[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hscript typescript.txt[21Dcd Desktop/BD3/OS/myProject/107034024-ppc4[42Dexit                                      [38Dmake clean[?1l>[?2004l
+]2;make clean]1;makerm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym
+rm: *.ihx: No such file or directory
+rm: *.lnk: No such file or directory
+make: *** [clean] Error 1
+[1m[7m%[27m[1m[0m                                                                                ]2;mittyu@Mittyus-MacBook-Pro: ~/Desktop/BD3/OS/myProject/107034024-ppc4]1;..07034024-ppc4[0m[27m[24m[J[01;31m➜  [36m107034024-ppc4[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hmake clean[10Dscript typescript.txt[21Dcd Desktop/BD3/OS/myProject/107034024-ppc4[42Dexit                                      [38Dmake[?1l>[?2004l
+]2;make]1;makesdcc -c  test3threads.c
+test3threads.c:81: warning 158: overflow in implicit constant conversion
+sdcc -c  preemptive.c
+preemptive.c:208: warning 85: in function ThreadCreate unreferenced function argument : 'fp'
+sdcc  -o test3threads.hex test3threads.rel preemptive.rel
+[1m[7m%[27m[1m[0m                                                                                ]2;mittyu@Mittyus-MacBook-Pro: ~/Desktop/BD3/OS/myProject/107034024-ppc4]1;..07034024-ppc4[0m[27m[24m[J[01;32m➜  [36m107034024-ppc4[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Wed Dec 16 23:13:25 2020
